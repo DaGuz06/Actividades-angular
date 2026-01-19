@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <h2>counter: {{count}}</h2>
+
+  <hr>
+
+  <button (click)="increment()" > 
+    +1
+  </button>
+  <button (click)="reset()" >
+    Reset
+  </button>
+  <button (click)="decrement()" >
+    -1
+  </button>
+
+  <hr>
+
+  <app-hero-page></app-hero-page>
+
+</body>
+</html>
